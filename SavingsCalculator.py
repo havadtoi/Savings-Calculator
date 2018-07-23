@@ -1,11 +1,11 @@
 
-E = 36000
-I = 76000
+E = 50000
+I = 100000
 S = I - E
 IR = 0.09
-DR = 0.025
+DR = 0.02
 C = list(range(1))
-C[0] = S + 100000
+C[0] = S
 BE = list(range(1))
 
 e = input('Manual Entry [Y/N]: ') 
